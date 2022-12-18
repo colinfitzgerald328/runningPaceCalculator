@@ -63,6 +63,7 @@ export default function Home() {
                 Finally, they can assist you in determining the distance you ran. For example, you may figure out how
                 far you ran by entering your pace and the length of your training run or race.
             </Text>
+            <Spacer y={1}/>
         </div>
     )
 }
