@@ -11,7 +11,7 @@ export default function RunningInputForm() {
 
     function handleSubmit() {
         const xhr = new XMLHttpRequest();
-        xhr.open('POST', 'https://evening-spire-30745.herokuapp.com/convert');
+        xhr.open('POST', 'https://hideousbisquesystemcall.colinfitzgeral8.repl.co/convert');
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.onload = () => {
             if (xhr.status === 200) {
